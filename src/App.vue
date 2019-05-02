@@ -4,20 +4,17 @@
             <router-link to="/">Home</router-link> |
             <router-link to="/about">About</router-link>
             <HelloWorld />
-            <ListLister />
         </div>
         <router-view />
     </div>
 </template>
 <script>
 import HelloWorld from '@/components/HelloWorld.vue';
-import ListLister from '@/components/ListLister.vue';
 
 export default {
-  components: {
-    HelloWorld, ListLister,
-  },
-
+    components: {
+        HelloWorld,
+    },
 };
 </script>
 <style lang="scss">
